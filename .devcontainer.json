@@ -11,7 +11,13 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,consistency=cached",
   "customizations": {
     "vscode": {
-      "extensions": ["timonwong.shellcheck", "esbenp.prettier-vscode"],
+      "extensions": [
+        "timonwong.shellcheck",
+        "esbenp.prettier-vscode",
+        "EditorConfig.EditorConfig",
+        "nidu.copy-json-path",
+        "ms-azuretools.vscode-docker"
+      ],
       "settings": {
         "terminal.integrated.profiles.linux": {
           "zsh": {
